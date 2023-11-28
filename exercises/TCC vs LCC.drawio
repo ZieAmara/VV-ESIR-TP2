@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-28T10:02:21.371Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="Fs4IccYJN96Vch9bbDQp" version="22.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T10:06:47.532Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15" etag="wSPRFnwgT5sycFa3sFp4" version="22.1.4" type="github">
   <diagram name="Page-1" id="FRZESp8M_X1J2_qpog6L">
     <mxGraphModel dx="1314" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="gQEigqOkruXDwnilH1iO-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;LCC = 3/3 = 1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="300" y="450" width="150" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gQEigqOkruXDwnilH1iO-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;Dans cet exemple, il y a 3 arêtes ou connexions directes, et, comme il y a 3 nœuds, il y a 3 paires de nœuds ou méthodes au total. Toutes ces paires sont directement connectées. On a donc :&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="gQEigqOkruXDwnilH1iO-16" value="&lt;div style=&quot;text-align: justify;&quot;&gt;In this example, there are 3 edges or direct connections, and, as there are 3 nodes, there are 3 pairs of nodes or methods in total. All these pairs are directly connected. So we have:&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="182.5" y="360" width="395" height="60" as="geometry" />
         </mxCell>
       </root>
