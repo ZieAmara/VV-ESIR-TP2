@@ -12,23 +12,23 @@ Explain under which circumstances *Tight Class Cohesion* (TCC) and *Loose Class 
 ### Circumstances where TCC and LCC produce the same value
 
 > This happens when all the methods in a class reference the same internal attributes of the class, thus creating a strong dependence between the methods.
-
+> Which is equivalent to saying that each method depends on each other method. In this case, the number of method pairs that share at least one field (TCC) is equal to the total number of dependencies between methods (LCC).
 ```
 public class ExampleClass {
     private int variable1;
     private String variable2;
 
     public void method1(int new_var1) {
-        this.variable1 = new_var1
+        this.variable1 = new_var1;
     }
 
     public void method2(String new_var2) {
-        this.variable2 = new_var2
+        this.variable2 = new_var2;
     }
 
     public void method3(int new_var1, String new_var2) {
-        this.variable1 = new_var1
-        this.variable2 = new_var2
+        this.variable1 = new_var1;
+        this.variable2 = new_var2;
     }
 }
 ```
@@ -36,5 +36,6 @@ public class ExampleClass {
 
 > In this example, all methods refer to variable1, creating strong cohesion within the class. Both TCC and LCC will produce the same value, because there is a close dependence between the methods.
 
+### Could LCC be lower than TCC for any given class?
 
-
+> The LCC can never be lower than the TCC for a given class. Indeed, by their definition we have the `LCC = (d_dir + d_indir)/N` and `TCC = (d_dir)/N` where *d_dir* corresponds to the total number of direct dependencies between the methods of the class and *d_indir* corresponds to the total number of indirect dependencies between the methods of the class. We can therefore conclude that we will always have *LCC ≥ TCC*
