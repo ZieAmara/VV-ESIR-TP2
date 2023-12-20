@@ -9,3 +9,8 @@ Include in this repository the code of your application. Remove all unnecessary 
 You may use [javaparser-starter](../code/javaparser-starter) as a starting point.
 
 *This exercise grants bonus points :)*
+
+# Report Screen
+
+<img width="594" alt="image" src="https://github.com/ZieAmara/VV-ESIR-TP2/assets/90223980/eb7528e8-b785-4629-b924-c2c47188e26a">
+
